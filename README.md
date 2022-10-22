@@ -14,8 +14,14 @@ O usuário deve ser capaz de:
 
 ### Minha Solução - Screenshot
 
-![1](./images/app-avaliacao01.png)
-![2](./images/app-avaliacao02.png)
+<p align="center">
+    <img src="./images/mobile-app-avaliacao01.png">
+</p>
+<br>
+<p align="center">
+    <img src="./images/mobile-app-avaliacao02.png">
+</p>
+
 
 
 ### Links
