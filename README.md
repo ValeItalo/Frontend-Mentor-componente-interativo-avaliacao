@@ -7,15 +7,15 @@ Essa é a minha solução para o desafio [Interactive rating component challenge
 O usuário deve ser capaz de:
 
 - Ver o layout responsivo compatível com o tamanho da tela
-- Ver a mudança do layout baseado no pseudo elemento :hover
+- Ver a mudança do layout com base na pseudo-classe :hover
 - Selecionar e enviar uma nota
 - Ver a imagem "Obrigado!" após enviar o formulário de avaliação
 
 
 ### Minha Solução - Screenshot
 
-![1](./images/app-avaliacao1.png)
-![2](./images/app-avaliacao2.png)
+![1](./images/app-avaliacao01.png)
+![2](./images/app-avaliacao02.png)
 
 
 ### Links
