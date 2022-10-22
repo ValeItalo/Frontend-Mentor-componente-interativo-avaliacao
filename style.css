@@ -22,6 +22,7 @@ body {
     background: var(--very-dark-blue);
     letter-spacing: 1px;
     line-height: 1.5;
+    padding: .5em;
 }
 
 h1,
@@ -43,7 +44,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 2em;
-    width: 26.5em;
+    width: 25em;
     height: 23em;
     margin: auto;
     position: relative;
