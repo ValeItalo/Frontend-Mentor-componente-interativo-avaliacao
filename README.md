@@ -2,16 +2,6 @@
 
 Essa é a minha solução para o desafio [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
 
-## Índice
-
-  - [O desafio](#O-desafio)
-  - [Minha Solução - Screenshot](#Minha-Solução-Screenshot)
-  - [Links](#links)
-  - [Criação](#Criação)
-  - [O que eu aprendi](#O-que-eu-aprendi)
-  - [Autor](#Autor)
-
-
 ### O desafio
 
 O usuário deve ser capaz de:
@@ -29,8 +19,8 @@ O usuário deve ser capaz de:
 
 
 ### Links
-
-- Live Site URL: [Avaliação Interativa](https://avaliacao-interativa.netlify.app/)
+- Solução que eu postei no Frontend Mentor: [@ValeItalo](https://www.frontendmentor.io/solutions/html-semntico-variveis-css-flexbox-mobilefirst-e-javascript-xuFgjYlQNq)
+- Meu site: [https://avaliacao-interativa.netlify.app/](https://avaliacao-interativa.netlify.app/)
 
 
 ### Criação
@@ -38,13 +28,13 @@ O usuário deve ser capaz de:
 - HTML semântico
 - Variáveis CSS
 - Flexbox
-- Mobile-first
+- Mobile first
 - JavaScript
 
 
 ### O que eu aprendi
 
-A proposta de utilziar variáveis CSS para as cores foi extremamente útil. 
+A proposta de utilizar variáveis CSS para as cores foi extremamente útil. 
 
 Eu pretendo utilizar esta técnica nos meus próximos projetos.
 
