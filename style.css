@@ -22,7 +22,12 @@ body {
     background: var(--very-dark-blue);
     letter-spacing: 1px;
     line-height: 1.5;
-    padding: .5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    height: 100%
 }
 
 h1,
@@ -39,17 +44,12 @@ a {
     text-decoration: none;
 }
 
-
 .container {
     display: flex;
     flex-direction: column;
     padding: 2em;
-    width: 25em;
-    height: 23em;
-    margin: auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(50%);
+    width: 20em;
+    margin-top: 5%;
     background: var(--dark-blue);
     border-radius: 5%;
 }
@@ -60,13 +60,14 @@ a {
     align-items: center;
     width: 2.8em;
     height: 2.8em;
+    padding: .5em;
     background: var(--dark-grey);
     border-radius: 50%;
     margin-bottom: 1em;
 }
 
 .star-container img {
-    width: 40%;
+    width: 100%;
 }
 
 .required {
@@ -160,9 +161,14 @@ button:focus {
     margin-bottom: .5em;
 }
 
+.projects {
+    color: var(--white);
+    margin: 2.5em 0 .5em;
+}
+
 .attribution {
     color: var(--white);
-    margin-top: 250px;
+    margin-top: 2em;
     font-size: 0.75rem;
     font-weight: 400;
     text-align: center;
@@ -173,14 +179,13 @@ button:focus {
     color: hsl(228, 30%, 43%);
 }
 
-@media(min-width: 600px) {
+@media(min-width: 680px) {
     body {
         font-size: 18px;
     }
 
     .container {
         width: 26.5em;
-        height: 22em;
     }
 
     .rating-container,

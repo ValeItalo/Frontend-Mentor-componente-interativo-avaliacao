@@ -19,7 +19,7 @@ ratingForm.addEventListener('submit', (e) => {
     <h2>Obrigado!</h2>
     <p>Se precisar de mais informações não hesite em nos chamar!
     </p>
-    <p>Outros projetos: <a href="https://github.com/ValeItalo" target="_blank">github.com/ValeItalo</a></p>
+    <p class="projects">Outros projetos: <a href="https://github.com/ValeItalo" target="_blank">github.com/ValeItalo</a></p>
     </div>
     `
 })
