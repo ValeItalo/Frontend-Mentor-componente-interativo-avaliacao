@@ -17,8 +17,7 @@ ratingForm.addEventListener('submit', (e) => {
     <div class="thanks-container">
     <p class="rating-choice">Avaliação: ${inputChecked.value} estrelas</p>
     <h2>Obrigado!</h2>
-    <p>Se precisar de mais informações não hesite em nos chamar!
-    </p>
+    <p>Se precisar de mais informações não hesite em nos chamar!</p>
     <p class="projects">Outros projetos: <a href="https://github.com/ValeItalo" target="_blank">github.com/ValeItalo</a></p>
     </div>
     `
