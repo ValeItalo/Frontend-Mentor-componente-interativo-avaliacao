@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Componente interativo de avaliação</title>
+</head>
+
+<body>
+  <main class="container">
+
+    <div class="star-container">
+      <img src="/images/icon-star.svg" alt="Ícone de uma estrela">
+    </div>
+
+    <h1>Pesquisa de satisfação</h1>
+    <p> Como você avalia o atendimento?</p>
+
+    <form id="rating-form">
+
+      <p class="required"> Por favor, escolha uma nota</p>
+      <div class="rating-container">
+        <input type="radio" name="rating" id="number-1" value="1">
+        <label for="number-1"> 1 </label>
+
+        <input type="radio" name="rating" id="number-2" value="2">
+        <label for="number-2"> 2 </label>
+
+        <input type="radio" name="rating" id="number-3" value="3">
+        <label for="number-3"> 3 </label>
+
+        <input type="radio" name="rating" id="number-4" value="4">
+        <label for="number-4"> 4 </label>
+
+        <input type="radio" name="rating" id="number-5" value="5">
+        <label for="number-5"> 5 </label>
+      </div>
+
+      <div class="button-container">
+        <button type="submit" id="submit-btn">Enviar</button>
+      </div>
+
+    </form>
+
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/profile/ValeItalo" target="_blank">Frontend Mentor</a>
+    <br>
+    Coded by <a href="https://github.com/ValeItalo" target="_blank">Ítalo Vale</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

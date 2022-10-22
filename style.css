@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/* font-family: 'Overpass', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: hsl(25, 97%, 53%);
+    --white: hsl(0, 0%, 100%);
+    --light-grey: hsl(217, 12%, 63%);
+    --medium-grey: hsl(216, 12%, 54%);
+    --dark-grey: hsl(213, 16%, 14%);
+    --dark-blue: hsl(213, 19%, 18%);
+    --very-dark-blue: hsl(216, 12%, 8%);
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background: var(--very-dark-blue);
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h1,
+h2 {
+    color: var(--white);
+}
+
+p {
+    color: var(--light-grey);
+}
+
+a {
+    color: var(--orange);
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    width: 26.5em;
+    height: 23em;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    background: var(--dark-blue);
+    border-radius: 5%;
+}
+
+.star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.8em;
+    height: 2.8em;
+    background: var(--dark-grey);
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.star-container img {
+    width: 40%;
+}
+
+.required {
+    text-align: center;
+    margin-top: .5em 0 0;
+    color: var(--orange);
+    display: none;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+/* Para ocultar o input radio e deixar visível apenas a label estilizada*/
+input[type="radio"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    opacity: 0;
+}
+
+input[type="radio"]:hover+label,
+button {
+    transition: background-color 350ms ease-in-out;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-grey);
+    font-weight: 700;
+    background: var(--dark-grey);
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked+label {
+    color: var(--white);
+    background: var(--medium-grey);
+}
+
+input[type="radio"]:hover+label {
+    color: var(--white);
+    background: var(--orange);
+}
+
+button {
+    width: 100%;
+    background-color: var(--orange);
+    text-transform: uppercase;
+    color: var(--white);
+    border: 0;
+    border-radius: 1.5em;
+    padding: 1em;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    color: var(--orange);
+    background: var(--white);
+}
+
+.thanks-image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5em;
+}
+
+.rating-choice {
+    color: var(--orange);
+    background: var(--dark-grey);
+    width: fit-content;
+    margin: 0 auto 1.5em;
+    padding: .5em 1em;
+    border-radius: 2em;
+}
+
+.thanks-container {
+    text-align: center;
+}
+
+.thanks-container h2 {
+    margin-bottom: .5em;
+}
+
+.attribution {
+    color: var(--white);
+    margin-top: 250px;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1.4px;
+}
+
+.attribution a {
+    color: hsl(228, 30%, 43%);
+}
+
+@media(min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    .container {
+        width: 26.5em;
+        height: 22em;
+    }
+
+    .rating-container,
+    button {
+        margin-top: .7em;
+    }
+}
